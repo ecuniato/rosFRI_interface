@@ -12,7 +12,6 @@ find_package(Eigen3 REQUIRED)
 include_directories(${Eigen_INCLUDE_DIRS})
 
 find_package(catkin REQUIRED COMPONENTS
-  iiwa_ros
   geometry_msgs
   actionlib_msgs
   roscpp
